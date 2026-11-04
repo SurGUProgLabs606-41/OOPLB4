@@ -1,0 +1,21 @@
+<map id="include/PrintedPublication.h" name="include/PrintedPublication.h">
+<area shape="rect" id="Node000001" title="Объявление промежуточного класса PrintedPublication." alt="" coords="281,5,463,31"/>
+<area shape="rect" id="Node000002" href="$_book_8h.html" title="Объявление класса Book — обычной книги." alt="" coords="160,79,267,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="329,39,242,81,239,76,334,36"/>
+<area shape="rect" id="Node000007" href="$_magazine_8h.html" title="Объявление класса Magazine — журнала." alt="" coords="306,79,439,105"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="374,44,375,80,370,77,371,49"/>
+<area shape="rect" id="Node000009" href="$_printed_publication_8cpp.html" title="Реализация методов класса PrintedPublication." alt="" coords="463,79,636,105"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="416,34,522,78,517,79,416,40"/>
+<area shape="rect" id="Node000003" href="$_hybrid_book_8h.html" title="Объявление класса HybridBook — гибридной книги." alt="" coords="16,153,161,178"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="177,114,111,154,108,150,181,111"/>
+<area shape="rect" id="Node000005" href="$main_8cpp.html" title="Тестовая программа для проверки иерархии библиотечных изданий." alt="" coords="165,226,262,252"/>
+<area shape="poly" id="edge6_Node000002_Node000005" title=" " alt="" coords="216,119,216,227,211,225,211,122"/>
+<area shape="rect" id="Node000006" href="$_book_8cpp.html" title="Реализация методов класса Book." alt="" coords="236,153,335,178"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="237,113,276,152,271,152,235,118"/>
+<area shape="rect" id="Node000004" href="$_hybrid_book_8cpp.html" title="Реализация методов класса HybridBook." alt="" coords="5,226,142,252"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="85,192,78,227,74,225,81,195"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="123,184,195,225,190,227,122,189"/>
+<area shape="poly" id="edge9_Node000007_Node000005" title=" " alt="" coords="372,118,365,151,349,180,330,197,308,211,263,230,261,224,306,206,327,193,345,177,360,149,368,122"/>
+<area shape="rect" id="Node000008" href="$_magazine_8cpp.html" title="Реализация методов класса Magazine." alt="" coords="410,153,534,178"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="402,111,458,152,452,152,401,117"/>
+</map>

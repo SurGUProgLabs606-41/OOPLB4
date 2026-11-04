@@ -1,0 +1,9 @@
+<map id="include/Magazine.h" name="include/Magazine.h">
+<area shape="rect" id="Node000001" title="Объявление класса Magazine — журнала." alt="" coords="7,5,141,31"/>
+<area shape="rect" id="Node000002" href="$_printed_publication_8h.html" title="Объявление промежуточного класса PrintedPublication." alt="" coords="5,79,143,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="75,29,77,64,71,63,73,34"/>
+<area shape="rect" id="Node000003" href="$_publication_8h.html" title="Объявление абстрактного базового класса Publication." alt="" coords="26,153,122,178"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="75,102,77,137,71,136,73,107"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="47,226,101,252"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="76,177,77,211,71,210,72,181"/>
+</map>

@@ -1,0 +1,7 @@
+var searchData=
+[
+  ['printedpublication_0',['PrintedPublication',['../class_printed_publication.html#a13978ed5e83d39e03e18f3b80b1e43a2',1,'PrintedPublication::PrintedPublication(const string &amp;title, const string &amp;isbn, int pages, const string &amp;publisher)'],['../class_printed_publication.html#a283e9ddaa1cddcce14400c90f3d64089',1,'PrintedPublication::PrintedPublication(const PrintedPublication &amp;other)']]],
+  ['printinfo_1',['printInfo',['../class_book.html#afb49a2776782ef62a6288d3b8557700a',1,'Book::printInfo()'],['../class_digital_publication.html#aab96e73167cbb59dbd5c95eb9bfae532',1,'DigitalPublication::printInfo()'],['../class_e_book.html#afec23af36e32a72b6d1a8d44d14bf502',1,'EBook::printInfo()'],['../class_hybrid_book.html#ae22130d7f3d14cb35e1897676d295f64',1,'HybridBook::printInfo()'],['../class_magazine.html#ae0be15d2098f8a1df6ca447823c27992',1,'Magazine::printInfo()'],['../class_printed_publication.html#a078c317a1090eae030b56d2e08d10d7e',1,'PrintedPublication::printInfo()'],['../class_publication.html#af2f10e84c130b6fe9a3ff66534aea3e6',1,'Publication::printInfo()']]],
+  ['printpublication_2',['printPublication',['../_publication_8cpp.html#adbc69bae21851f592aa6f43979a04820',1,'Publication.cpp']]],
+  ['publication_3',['Publication',['../class_publication.html#a59b2bb1ebc7100a3f18772caa1dee43d',1,'Publication::Publication(const string &amp;title, const string &amp;isbn)'],['../class_publication.html#a1d18f32cf8c9b936e0be70450d1a53c1',1,'Publication::Publication(const Publication &amp;other)']]]
+];

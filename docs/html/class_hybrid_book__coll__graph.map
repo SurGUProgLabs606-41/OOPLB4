@@ -1,0 +1,13 @@
+<map id="HybridBook" name="HybridBook">
+<area shape="rect" id="Node000001" title="Класс гибридной книги." alt="" coords="77,255,166,280"/>
+<area shape="rect" id="Node000002" href="$class_book.html" title="Класс печатной книги." alt="" coords="62,180,113,205"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,217,119,255,114,254,98,222"/>
+<area shape="rect" id="Node000003" href="$class_printed_publication.html" title="Промежуточный класс печатных изданий." alt="" coords="5,80,132,106"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="75,119,88,179,82,179,72,124"/>
+<area shape="rect" id="Node000004" href="$class_publication.html" title="Абстрактный базовый класс библиотечного издания." alt="" coords="75,5,160,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="100,46,79,81,74,79,102,42"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="175,10,187,18,179,26,162,27,159,23,177,21,182,18,176,15"/>
+<area shape="rect" id="Node000005" href="$class_digital_publication.html" title="Промежуточный класс электронных изданий." alt="" coords="102,130,224,156"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="130,43,146,79,162,130,157,130,141,81,129,48"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="157,170,128,255,124,253,152,171"/>
+</map>

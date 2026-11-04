@@ -1,0 +1,9 @@
+<map id="include/EBook.h" name="include/EBook.h">
+<area shape="rect" id="Node000001" title="Объявление класса EBook — электронной книги." alt="" coords="14,5,130,31"/>
+<area shape="rect" id="Node000002" href="$_digital_publication_8h.html" title="Объявление промежуточного класса DigitalPublication." alt="" coords="5,79,139,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="73,29,75,64,69,63,71,34"/>
+<area shape="rect" id="Node000003" href="$_publication_8h.html" title="Объявление абстрактного базового класса Publication." alt="" coords="24,153,120,178"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="73,102,75,137,69,136,71,107"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="45,226,99,252"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="74,177,75,211,69,210,70,181"/>
+</map>

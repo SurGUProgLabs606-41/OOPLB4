@@ -1,0 +1,483 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.18.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Лабораторная работа №4 - Библиотечные издания (8): Класс EBook</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="codefolding.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Лабораторная работа №4 - Библиотечные издания (8)
+   </div>
+   <div id="projectbrief">Вариант 8. Система учёта библиотечных изданий</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.18.0 -->
+<script type="text/javascript">
+let searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded', codefold.init);
+</script>
+<script type="application/json" id="doxygen-config">
+{
+  "relPath": "",
+  "generateTreeView": true,
+  "searchEngine": true,
+  "serverBasedSearch": false,
+  "disableIndex": false,
+  "dynamicMenus": true,
+  "fullSidebar": false
+}
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<div id="main-nav-mobile">
+<div class="sm sm-dox"><input id="main-menu-state" type="checkbox"/>
+<label class="main-menu-btn" for="main-menu-state">
+<span class="main-menu-btn-icon"></span> Toggle main menu visibility</label>
+<span id="searchBoxPos1"></span>
+</div>
+</div><!-- main-nav-mobile -->
+<div id="main-nav">
+  <ul class="sm sm-dox" id="main-menu">
+    <li id="searchBoxPos2">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="Поиск" accesskey="S"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+    </li>
+  </ul>
+</div><!-- main-nav -->
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded',() => { initNavTree('class_e_book.html','','class_e_book-members'); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Загрузка...</div>
+<div class="SRStatus" id="Searching">Поиск...</div>
+<div class="SRStatus" id="NoMatches">Не найдено</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Класс EBook</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Класс электронной книги.  
+ <a href="#details">Подробнее...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_e_book_8h_source.html">EBook.h</a>&gt;</code></p>
+<div class="dynheader">
+Граф наследования:EBook:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_e_book__inherit__graph.png" border="0" usemap="#a_e_book_inherit__map" loading="lazy" alt="Inheritance graph"/></div>
+<map name="a_e_book_inherit__map" id="a_e_book_inherit__map">
+<area shape="rect" title="Класс электронной книги." alt="" coords="36,153,97,178"/>
+<area shape="rect" href="class_digital_publication.html" title="Промежуточный класс электронных изданий." alt="" coords="5,79,128,105"/>
+<area shape="poly" title=" " alt="" coords="68,118,69,153,64,151,65,122"/>
+<area shape="rect" href="class_publication.html" title="Абстрактный базовый класс библиотечного издания." alt="" coords="24,5,109,31"/>
+<area shape="poly" title=" " alt="" coords="67,44,69,79,64,78,66,49"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">см. легенду</a>]</span></center></div>
+<div class="dynheader">
+Граф связей класса EBook:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_e_book__coll__graph.png" border="0" usemap="#a_e_book_coll__map" loading="lazy" alt="Collaboration graph"/></div>
+<map name="a_e_book_coll__map" id="a_e_book_coll__map">
+<area shape="rect" title="Класс электронной книги." alt="" coords="36,155,97,181"/>
+<area shape="rect" href="class_digital_publication.html" title="Промежуточный класс электронных изданий." alt="" coords="5,80,128,106"/>
+<area shape="poly" title=" " alt="" coords="69,120,69,156,64,154,64,123"/>
+<area shape="rect" href="class_publication.html" title="Абстрактный базовый класс библиотечного издания." alt="" coords="24,5,109,31"/>
+<area shape="poly" title=" " alt="" coords="67,44,69,81,64,80,66,49"/>
+<area shape="poly" title=" " alt="" coords="124,10,136,18,127,26,111,28,108,23,125,21,131,18,125,15"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">см. легенду</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:a4eaeadc071e4d4298e7216ee20408e5a" id="r_a4eaeadc071e4d4298e7216ee20408e5a"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a4eaeadc071e4d4298e7216ee20408e5a">EBook</a> (const string &amp;title, const string &amp;isbn, double fileSize, const string &amp;format)</td></tr>
+<tr class="memdesc:a4eaeadc071e4d4298e7216ee20408e5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Создаёт новую электронную книгу.  <br /></td></tr>
+<tr class="memitem:ad00ce0e04e1074d97e7f1a313d75f088" id="r_ad00ce0e04e1074d97e7f1a313d75f088"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ad00ce0e04e1074d97e7f1a313d75f088">EBook</a> (const <a class="el" href="class_e_book.html">EBook</a> &amp;other)</td></tr>
+<tr class="memdesc:ad00ce0e04e1074d97e7f1a313d75f088"><td class="mdescLeft">&#160;</td><td class="mdescRight">Создаёт копию электронной книги.  <br /></td></tr>
+<tr class="memitem:aeb8c288f11cee8bc25e5566884a56211" id="r_aeb8c288f11cee8bc25e5566884a56211"><td class="memItemLeft"><a class="el" href="class_e_book.html">EBook</a> &amp;&#160;</td><td class="memItemRight"><a class="el" href="#aeb8c288f11cee8bc25e5566884a56211">operator=</a> (const <a class="el" href="class_e_book.html">EBook</a> &amp;other)</td></tr>
+<tr class="memdesc:aeb8c288f11cee8bc25e5566884a56211"><td class="mdescLeft">&#160;</td><td class="mdescRight">Оператор присваивания электронной книги.  <br /></td></tr>
+<tr class="memitem:a454efd873687d2c5646b33ee3fabf4ca" id="r_a454efd873687d2c5646b33ee3fabf4ca"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a454efd873687d2c5646b33ee3fabf4ca">~EBook</a> () override=default</td></tr>
+<tr class="memdesc:a454efd873687d2c5646b33ee3fabf4ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Виртуальный деструктор электронной книги.  <br /></td></tr>
+<tr class="memitem:abf7f712bbf90bfeffcbbae54cbf8fa16" id="r_abf7f712bbf90bfeffcbbae54cbf8fa16"><td class="memItemLeft">string&#160;</td><td class="memItemRight"><a class="el" href="#abf7f712bbf90bfeffcbbae54cbf8fa16">getTitle</a> () const override</td></tr>
+<tr class="memdesc:abf7f712bbf90bfeffcbbae54cbf8fa16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает название электронной книги.  <br /></td></tr>
+<tr class="memitem:aac70ea1cf0b17d36a82ba3b3853162b5" id="r_aac70ea1cf0b17d36a82ba3b3853162b5"><td class="memItemLeft">string&#160;</td><td class="memItemRight"><a class="el" href="#aac70ea1cf0b17d36a82ba3b3853162b5">getISBN</a> () const override</td></tr>
+<tr class="memdesc:aac70ea1cf0b17d36a82ba3b3853162b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает ISBN электронной книги.  <br /></td></tr>
+<tr class="memitem:afec23af36e32a72b6d1a8d44d14bf502" id="r_afec23af36e32a72b6d1a8d44d14bf502"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afec23af36e32a72b6d1a8d44d14bf502">printInfo</a> () const override</td></tr>
+<tr class="memdesc:afec23af36e32a72b6d1a8d44d14bf502"><td class="mdescLeft">&#160;</td><td class="mdescRight">Выводит полную информацию об электронной книге.  <br /></td></tr>
+<tr class="inherit_header pub_methods_class_digital_publication"><td colspan="2">Открытые члены унаследованные от <a class="el" href="class_digital_publication.html">DigitalPublication</a></td></tr>
+<tr class="memitem:a311b48b9a69e899173b215d655899a52 pub_methods_class_digital_publication" id="r_a311b48b9a69e899173b215d655899a52"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="class_digital_publication.html#a311b48b9a69e899173b215d655899a52">DigitalPublication</a> (const string &amp;title, const string &amp;isbn, double fileSize, const string &amp;format)</td></tr>
+<tr class="memdesc:a311b48b9a69e899173b215d655899a52 pub_methods_class_digital_publication"><td class="mdescLeft">&#160;</td><td class="mdescRight">Создаёт новое электронное издание.  <br /></td></tr>
+<tr class="memitem:a0fbe9067c4a9edbf6aec83d0f53e513d pub_methods_class_digital_publication" id="r_a0fbe9067c4a9edbf6aec83d0f53e513d"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="class_digital_publication.html#a0fbe9067c4a9edbf6aec83d0f53e513d">DigitalPublication</a> (const <a class="el" href="class_digital_publication.html">DigitalPublication</a> &amp;other)</td></tr>
+<tr class="memdesc:a0fbe9067c4a9edbf6aec83d0f53e513d pub_methods_class_digital_publication"><td class="mdescLeft">&#160;</td><td class="mdescRight">Создаёт копию электронного издания.  <br /></td></tr>
+<tr class="memitem:ab20a7cbc273ebc0b0e114e82d1f5a87d pub_methods_class_digital_publication" id="r_ab20a7cbc273ebc0b0e114e82d1f5a87d"><td class="memItemLeft"><a class="el" href="class_digital_publication.html">DigitalPublication</a> &amp;&#160;</td><td class="memItemRight"><a class="el" href="class_digital_publication.html#ab20a7cbc273ebc0b0e114e82d1f5a87d">operator=</a> (const <a class="el" href="class_digital_publication.html">DigitalPublication</a> &amp;other)</td></tr>
+<tr class="memdesc:ab20a7cbc273ebc0b0e114e82d1f5a87d pub_methods_class_digital_publication"><td class="mdescLeft">&#160;</td><td class="mdescRight">Оператор присваивания электронного издания.  <br /></td></tr>
+<tr class="memitem:a5775dea30abd92e17e9426c85f4b3db8 pub_methods_class_digital_publication" id="r_a5775dea30abd92e17e9426c85f4b3db8"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="class_digital_publication.html#a5775dea30abd92e17e9426c85f4b3db8">~DigitalPublication</a> () override</td></tr>
+<tr class="memdesc:a5775dea30abd92e17e9426c85f4b3db8 pub_methods_class_digital_publication"><td class="mdescLeft">&#160;</td><td class="mdescRight">Деструктор электронного издания.  <br /></td></tr>
+<tr class="memitem:a6671f6ad507d5d774da4c8a69eac3ac0 pub_methods_class_digital_publication" id="r_a6671f6ad507d5d774da4c8a69eac3ac0"><td class="memItemLeft">double&#160;</td><td class="memItemRight"><a class="el" href="class_digital_publication.html#a6671f6ad507d5d774da4c8a69eac3ac0">getFileSize</a> () const</td></tr>
+<tr class="memdesc:a6671f6ad507d5d774da4c8a69eac3ac0 pub_methods_class_digital_publication"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает размер электронного файла.  <br /></td></tr>
+<tr class="memitem:ab20dc7a53e6f551d3964a5d12a8ea2a1 pub_methods_class_digital_publication" id="r_ab20dc7a53e6f551d3964a5d12a8ea2a1"><td class="memItemLeft">string&#160;</td><td class="memItemRight"><a class="el" href="class_digital_publication.html#ab20dc7a53e6f551d3964a5d12a8ea2a1">getFormat</a> () const</td></tr>
+<tr class="memdesc:ab20dc7a53e6f551d3964a5d12a8ea2a1 pub_methods_class_digital_publication"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает формат электронного файла.  <br /></td></tr>
+<tr class="memitem:aa9cd3bb2ae5e523d9dd94ced1768113c pub_methods_class_digital_publication" id="r_aa9cd3bb2ae5e523d9dd94ced1768113c"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="class_digital_publication.html#aa9cd3bb2ae5e523d9dd94ced1768113c">isDigital</a> () const override</td></tr>
+<tr class="memdesc:aa9cd3bb2ae5e523d9dd94ced1768113c pub_methods_class_digital_publication"><td class="mdescLeft">&#160;</td><td class="mdescRight">Проверяет, является ли издание электронным.  <br /></td></tr>
+<tr class="inherit_header pub_methods_class_publication"><td colspan="2">Открытые члены унаследованные от <a class="el" href="class_publication.html">Publication</a></td></tr>
+<tr class="memitem:a59b2bb1ebc7100a3f18772caa1dee43d pub_methods_class_publication" id="r_a59b2bb1ebc7100a3f18772caa1dee43d"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="class_publication.html#a59b2bb1ebc7100a3f18772caa1dee43d">Publication</a> (const string &amp;title, const string &amp;isbn)</td></tr>
+<tr class="memdesc:a59b2bb1ebc7100a3f18772caa1dee43d pub_methods_class_publication"><td class="mdescLeft">&#160;</td><td class="mdescRight">Создаёт новое библиотечное издание.  <br /></td></tr>
+<tr class="memitem:a1d18f32cf8c9b936e0be70450d1a53c1 pub_methods_class_publication" id="r_a1d18f32cf8c9b936e0be70450d1a53c1"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="class_publication.html#a1d18f32cf8c9b936e0be70450d1a53c1">Publication</a> (const <a class="el" href="class_publication.html">Publication</a> &amp;other)</td></tr>
+<tr class="memdesc:a1d18f32cf8c9b936e0be70450d1a53c1 pub_methods_class_publication"><td class="mdescLeft">&#160;</td><td class="mdescRight">Создаёт копию существующего издания.  <br /></td></tr>
+<tr class="memitem:ab8f83e2529f817cba9f7265fc3146ee6 pub_methods_class_publication" id="r_ab8f83e2529f817cba9f7265fc3146ee6"><td class="memItemLeft"><a class="el" href="class_publication.html">Publication</a> &amp;&#160;</td><td class="memItemRight"><a class="el" href="class_publication.html#ab8f83e2529f817cba9f7265fc3146ee6">operator=</a> (const <a class="el" href="class_publication.html">Publication</a> &amp;other)</td></tr>
+<tr class="memdesc:ab8f83e2529f817cba9f7265fc3146ee6 pub_methods_class_publication"><td class="mdescLeft">&#160;</td><td class="mdescRight">Присваивает текущему объекту данные другого издания.  <br /></td></tr>
+<tr class="memitem:ab9c3da028128140aea86b90b17a2d07f pub_methods_class_publication" id="r_ab9c3da028128140aea86b90b17a2d07f"><td class="memItemLeft">virtual&#160;</td><td class="memItemRight"><a class="el" href="class_publication.html#ab9c3da028128140aea86b90b17a2d07f">~Publication</a> ()</td></tr>
+<tr class="memdesc:ab9c3da028128140aea86b90b17a2d07f pub_methods_class_publication"><td class="mdescLeft">&#160;</td><td class="mdescRight">Виртуальный деструктор базового класса.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
+Дополнительные унаследованные члены</h2></td></tr>
+<tr class="inherit_header pub_static_methods_class_publication"><td colspan="2">Открытые статические члены унаследованные от <a class="el" href="class_publication.html">Publication</a></td></tr>
+<tr class="memitem:af3b5f9e2b33db38948a705fb140434e2 pub_static_methods_class_publication" id="r_af3b5f9e2b33db38948a705fb140434e2"><td class="memItemLeft">static int&#160;</td><td class="memItemRight"><a class="el" href="class_publication.html#af3b5f9e2b33db38948a705fb140434e2">getTotalCount</a> ()</td></tr>
+<tr class="memdesc:af3b5f9e2b33db38948a705fb140434e2 pub_static_methods_class_publication"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает общее количество существующих изданий.  <br /></td></tr>
+<tr class="memitem:abbf93d883260bf33b1d0c4b93e7a7770 pub_static_methods_class_publication" id="r_abbf93d883260bf33b1d0c4b93e7a7770"><td class="memItemLeft">static int&#160;</td><td class="memItemRight"><a class="el" href="class_publication.html#abbf93d883260bf33b1d0c4b93e7a7770">getDigitalCount</a> ()</td></tr>
+<tr class="memdesc:abbf93d883260bf33b1d0c4b93e7a7770 pub_static_methods_class_publication"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает количество существующих электронных изданий.  <br /></td></tr>
+<tr class="memitem:a616068099904f6426ce54b30a5cc2bbd pub_static_methods_class_publication" id="r_a616068099904f6426ce54b30a5cc2bbd"><td class="memItemLeft">static <a class="el" href="class_publication.html">Publication</a> *&#160;</td><td class="memItemRight"><a class="el" href="class_publication.html#a616068099904f6426ce54b30a5cc2bbd">findByISBN</a> (const string &amp;<a class="el" href="class_publication.html#abd4be5ff353bd5822711f6be4e2127e4">isbn</a>)</td></tr>
+<tr class="memdesc:a616068099904f6426ce54b30a5cc2bbd pub_static_methods_class_publication"><td class="mdescLeft">&#160;</td><td class="mdescRight">Выполняет поиск издания по ISBN.  <br /></td></tr>
+<tr class="inherit_header pro_attribs_class_digital_publication"><td colspan="2">Защищенные данные унаследованные от <a class="el" href="class_digital_publication.html">DigitalPublication</a></td></tr>
+<tr class="memitem:accbb62432c08000123412eb3cc52ddcb pro_attribs_class_digital_publication" id="r_accbb62432c08000123412eb3cc52ddcb"><td class="memItemLeft">double&#160;</td><td class="memItemRight"><a class="el" href="class_digital_publication.html#accbb62432c08000123412eb3cc52ddcb">fileSize</a></td></tr>
+<tr class="memdesc:accbb62432c08000123412eb3cc52ddcb pro_attribs_class_digital_publication"><td class="mdescLeft">&#160;</td><td class="mdescRight">Размер электронного файла в мегабайтах.  <br /></td></tr>
+<tr class="memitem:a52ff1d8c557203daef5f8ffa4618bb5d pro_attribs_class_digital_publication" id="r_a52ff1d8c557203daef5f8ffa4618bb5d"><td class="memItemLeft">string&#160;</td><td class="memItemRight"><a class="el" href="class_digital_publication.html#a52ff1d8c557203daef5f8ffa4618bb5d">format</a></td></tr>
+<tr class="memdesc:a52ff1d8c557203daef5f8ffa4618bb5d pro_attribs_class_digital_publication"><td class="mdescLeft">&#160;</td><td class="mdescRight">Формат электронного файла, например PDF или EPUB.  <br /></td></tr>
+<tr class="inherit_header pro_attribs_class_publication"><td colspan="2">Защищенные данные унаследованные от <a class="el" href="class_publication.html">Publication</a></td></tr>
+<tr class="memitem:a239672a58ef3fc23bc93bab0d91dbc99 pro_attribs_class_publication" id="r_a239672a58ef3fc23bc93bab0d91dbc99"><td class="memItemLeft">string&#160;</td><td class="memItemRight"><a class="el" href="class_publication.html#a239672a58ef3fc23bc93bab0d91dbc99">title</a></td></tr>
+<tr class="memdesc:a239672a58ef3fc23bc93bab0d91dbc99 pro_attribs_class_publication"><td class="mdescLeft">&#160;</td><td class="mdescRight">Название библиотечного издания.  <br /></td></tr>
+<tr class="memitem:abd4be5ff353bd5822711f6be4e2127e4 pro_attribs_class_publication" id="r_abd4be5ff353bd5822711f6be4e2127e4"><td class="memItemLeft">string&#160;</td><td class="memItemRight"><a class="el" href="class_publication.html#abd4be5ff353bd5822711f6be4e2127e4">isbn</a></td></tr>
+<tr class="memdesc:abd4be5ff353bd5822711f6be4e2127e4 pro_attribs_class_publication"><td class="mdescLeft">&#160;</td><td class="mdescRight">Международный стандартный номер книги (ISBN).  <br /></td></tr>
+<tr class="inherit_header pro_static_attribs_class_publication"><td colspan="2">Статические защищенные данные унаследованные от <a class="el" href="class_publication.html">Publication</a></td></tr>
+<tr class="memitem:abefcfdf6309a4d98c2c56bd834da1018 pro_static_attribs_class_publication" id="r_abefcfdf6309a4d98c2c56bd834da1018"><td class="memItemLeft">static int&#160;</td><td class="memItemRight"><a class="el" href="class_publication.html#abefcfdf6309a4d98c2c56bd834da1018">totalCount</a> = 0</td></tr>
+<tr class="memdesc:abefcfdf6309a4d98c2c56bd834da1018 pro_static_attribs_class_publication"><td class="mdescLeft">&#160;</td><td class="mdescRight">Общее количество существующих объектов всех типов изданий.  <br /></td></tr>
+<tr class="memitem:a32791f66c4ca239a4a3356f3351aee57 pro_static_attribs_class_publication" id="r_a32791f66c4ca239a4a3356f3351aee57"><td class="memItemLeft">static int&#160;</td><td class="memItemRight"><a class="el" href="class_publication.html#a32791f66c4ca239a4a3356f3351aee57">digitalCount</a> = 0</td></tr>
+<tr class="memdesc:a32791f66c4ca239a4a3356f3351aee57 pro_static_attribs_class_publication"><td class="mdescLeft">&#160;</td><td class="mdescRight">Количество существующих электронных изданий.  <br /></td></tr>
+<tr class="memitem:a6a0b8c8d1b87e7de7eebce617d8afffc pro_static_attribs_class_publication" id="r_a6a0b8c8d1b87e7de7eebce617d8afffc"><td class="memItemLeft">static <a class="el" href="class_publication.html">Publication</a> *&#160;</td><td class="memItemRight"><a class="el" href="class_publication.html#a6a0b8c8d1b87e7de7eebce617d8afffc">registry</a> [100] = {}</td></tr>
+<tr class="memdesc:a6a0b8c8d1b87e7de7eebce617d8afffc pro_static_attribs_class_publication"><td class="mdescLeft">&#160;</td><td class="mdescRight">Массив указателей на зарегистрированные объекты изданий.  <br /></td></tr>
+<tr class="memitem:aebbfd9a4210a8889f53876b1d5d64832 pro_static_attribs_class_publication" id="r_aebbfd9a4210a8889f53876b1d5d64832"><td class="memItemLeft">static int&#160;</td><td class="memItemRight"><a class="el" href="class_publication.html#aebbfd9a4210a8889f53876b1d5d64832">registryCount</a> = 0</td></tr>
+<tr class="memdesc:aebbfd9a4210a8889f53876b1d5d64832 pro_static_attribs_class_publication"><td class="mdescLeft">&#160;</td><td class="mdescRight">Текущее количество объектов, зарегистрированных в массиве registry.  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Класс электронной книги. </p>
+<p>Представляет электронную книгу и использует характеристики электронного издания: размер файла и формат.</p>
+<p>Является производным классом <a class="el" href="class_digital_publication.html" title="Промежуточный класс электронных изданий.">DigitalPublication</a>. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Конструктор(ы)</h2>
+<a id="a4eaeadc071e4d4298e7216ee20408e5a" name="a4eaeadc071e4d4298e7216ee20408e5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4eaeadc071e4d4298e7216ee20408e5a">&#9670;&#160;</a></span>EBook() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">EBook::EBook </td>
+          <td>(</td>
+          <td class="paramtype">const string &amp;</td>          <td class="paramname"><span class="paramname"><em>title</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const string &amp;</td>          <td class="paramname"><span class="paramname"><em>isbn</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>fileSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const string &amp;</td>          <td class="paramname"><span class="paramname"><em>format</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Создаёт новую электронную книгу. </p>
+<p>Конструктор электронной книги.</p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">title</td><td>Название книги. </td></tr>
+    <tr><td class="paramname">isbn</td><td>ISBN книги. </td></tr>
+    <tr><td class="paramname">fileSize</td><td>Размер электронного файла в мегабайтах. </td></tr>
+    <tr><td class="paramname">format</td><td>Формат электронного файла.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Инициализирует базовые классы <a class="el" href="class_publication.html" title="Абстрактный базовый класс библиотечного издания.">Publication</a> и <a class="el" href="class_digital_publication.html" title="Промежуточный класс электронных изданий.">DigitalPublication</a>.</p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">title</td><td>Название книги. </td></tr>
+    <tr><td class="paramname">isbn</td><td>ISBN книги. </td></tr>
+    <tr><td class="paramname">fileSize</td><td>Размер электронного файла в мегабайтах. </td></tr>
+    <tr><td class="paramname">format</td><td>Формат электронного файла.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Инициализирует виртуальный базовый класс <a class="el" href="class_publication.html" title="Абстрактный базовый класс библиотечного издания.">Publication</a> и промежуточный класс <a class="el" href="class_digital_publication.html" title="Промежуточный класс электронных изданий.">DigitalPublication</a>. </p>
+
+</div>
+</div>
+<a id="ad00ce0e04e1074d97e7f1a313d75f088" name="ad00ce0e04e1074d97e7f1a313d75f088"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad00ce0e04e1074d97e7f1a313d75f088">&#9670;&#160;</a></span>EBook() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">EBook::EBook </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_e_book.html">EBook</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Создаёт копию электронной книги. </p>
+<p>Конструктор копирования электронной книги.</p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>Электронная книга, данные которой копируются.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Копирует характеристики базовых классов.</p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>Исходная электронная книга для копирования.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Копирует характеристики базового класса <a class="el" href="class_publication.html" title="Абстрактный базовый класс библиотечного издания.">Publication</a> и промежуточного класса <a class="el" href="class_digital_publication.html" title="Промежуточный класс электронных изданий.">DigitalPublication</a>. </p>
+
+</div>
+</div>
+<a id="a454efd873687d2c5646b33ee3fabf4ca" name="a454efd873687d2c5646b33ee3fabf4ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a454efd873687d2c5646b33ee3fabf4ca">&#9670;&#160;</a></span>~EBook()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">EBook::~EBook </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel default">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Виртуальный деструктор электронной книги. </p>
+<p>Используется стандартная реализация деструктора, поскольку класс не управляет динамическими ресурсами. </p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Методы</h2>
+<a id="aac70ea1cf0b17d36a82ba3b3853162b5" name="aac70ea1cf0b17d36a82ba3b3853162b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac70ea1cf0b17d36a82ba3b3853162b5">&#9670;&#160;</a></span>getISBN()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string EBook::getISBN </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Возвращает ISBN электронной книги. </p>
+<dl class="section return"><dt>Возвращает</dt><dd>ISBN книги.</dd></dl>
+<p>Реализует чисто виртуальный метод <a class="el" href="class_publication.html" title="Абстрактный базовый класс библиотечного издания.">Publication</a>.</p>
+<dl class="section return"><dt>Возвращает</dt><dd>Значение поля isbn. </dd></dl>
+
+<p>Замещает <a class="el" href="class_publication.html#a0d43692202b709295beffd2adb43e290">Publication</a>.</p>
+
+</div>
+</div>
+<a id="abf7f712bbf90bfeffcbbae54cbf8fa16" name="abf7f712bbf90bfeffcbbae54cbf8fa16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf7f712bbf90bfeffcbbae54cbf8fa16">&#9670;&#160;</a></span>getTitle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string EBook::getTitle </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Возвращает название электронной книги. </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Название книги.</dd></dl>
+<p>Реализует чисто виртуальный метод <a class="el" href="class_publication.html" title="Абстрактный базовый класс библиотечного издания.">Publication</a>.</p>
+<dl class="section return"><dt>Возвращает</dt><dd>Значение поля title. </dd></dl>
+
+<p>Замещает <a class="el" href="class_publication.html#af487d9ec4dffbc6b2e61ab2a5efcd7d2">Publication</a>.</p>
+
+</div>
+</div>
+<a id="aeb8c288f11cee8bc25e5566884a56211" name="aeb8c288f11cee8bc25e5566884a56211"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb8c288f11cee8bc25e5566884a56211">&#9670;&#160;</a></span>operator=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_e_book.html">EBook</a> &amp; EBook::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_e_book.html">EBook</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Оператор присваивания электронной книги. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>Электронная книга, данные которой присваиваются. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Ссылка на текущий объект.</dd></dl>
+<p>Копирует характеристики <a class="el" href="class_digital_publication.html" title="Промежуточный класс электронных изданий.">DigitalPublication</a> и проверяет самоприсваивание. </p>
+
+</div>
+</div>
+<a id="afec23af36e32a72b6d1a8d44d14bf502" name="afec23af36e32a72b6d1a8d44d14bf502"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afec23af36e32a72b6d1a8d44d14bf502">&#9670;&#160;</a></span>printInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EBook::printInfo </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Выводит полную информацию об электронной книге. </p>
+<p>Выводит информацию об электронной книге.</p>
+<p>Переопределяет виртуальный метод <a class="el" href="#afec23af36e32a72b6d1a8d44d14bf502" title="Выводит полную информацию об электронной книге.">printInfo()</a> и выводит название, ISBN, размер файла и формат.</p>
+<p>Отображает название, ISBN, размер файла и формат. </p>
+
+<p>Переопределяет метод предка <a class="el" href="class_digital_publication.html#aab96e73167cbb59dbd5c95eb9bfae532">DigitalPublication</a>.</p>
+
+</div>
+</div>
+<hr/>Объявления и описания членов классов находятся в файлах:<ul>
+<li>include/<a class="el" href="_e_book_8h_source.html">EBook.h</a></li>
+<li>src/<a class="el" href="_e_book_8cpp.html">EBook.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="class_e_book.html">EBook</a></li>
+    <li class="footer">Создано системой <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.18.0 </li>
+  </ul>
+</div>
+</body>
+</html>

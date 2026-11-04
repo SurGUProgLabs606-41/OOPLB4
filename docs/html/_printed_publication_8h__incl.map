@@ -1,0 +1,7 @@
+<map id="include/PrintedPublication.h" name="include/PrintedPublication.h">
+<area shape="rect" id="Node000001" title="Объявление промежуточного класса PrintedPublication." alt="" coords="5,5,188,31"/>
+<area shape="rect" id="Node000002" href="$_publication_8h.html" title="Объявление абстрактного базового класса Publication." alt="" coords="48,79,145,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,29,99,64,94,63,95,34"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="70,153,123,178"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="98,103,99,138,94,136,95,107"/>
+</map>

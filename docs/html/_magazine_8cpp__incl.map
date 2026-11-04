@@ -1,0 +1,13 @@
+<map id="src/Magazine.cpp" name="src/Magazine.cpp">
+<area shape="rect" id="Node000001" title="Реализация методов класса Magazine." alt="" coords="64,5,188,31"/>
+<area shape="rect" id="Node000002" href="$_magazine_8h.html" title="Объявление класса Magazine — журнала." alt="" coords="30,79,118,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,34,94,68,89,65,119,29"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="142,79,214,105"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="135,29,163,66,158,67,135,34"/>
+<area shape="rect" id="Node000003" href="$_printed_publication_8h.html" title="Объявление промежуточного класса PrintedPublication." alt="" coords="5,153,143,178"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="75,102,77,137,71,136,73,108"/>
+<area shape="rect" id="Node000004" href="$_publication_8h.html" title="Объявление абстрактного базового класса Publication." alt="" coords="26,226,122,252"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="75,176,77,211,71,210,73,181"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="47,300,101,326"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="76,250,77,285,71,283,72,254"/>
+</map>

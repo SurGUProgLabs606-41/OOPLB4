@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.18.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Лабораторная работа №4 - Библиотечные издания (8): Исходный файл include/Book.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="codefolding.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Лабораторная работа №4 - Библиотечные издания (8)
+   </div>
+   <div id="projectbrief">Вариант 8. Система учёта библиотечных изданий</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.18.0 -->
+<script type="text/javascript">
+let searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded', codefold.init);
+</script>
+<script type="application/json" id="doxygen-config">
+{
+  "relPath": "",
+  "generateTreeView": true,
+  "searchEngine": true,
+  "serverBasedSearch": false,
+  "disableIndex": false,
+  "dynamicMenus": true,
+  "fullSidebar": false
+}
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<div id="main-nav-mobile">
+<div class="sm sm-dox"><input id="main-menu-state" type="checkbox"/>
+<label class="main-menu-btn" for="main-menu-state">
+<span class="main-menu-btn-icon"></span> Toggle main menu visibility</label>
+<span id="searchBoxPos1"></span>
+</div>
+</div><!-- main-nav-mobile -->
+<div id="main-nav">
+  <ul class="sm sm-dox" id="main-menu">
+    <li id="searchBoxPos2">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="Поиск" accesskey="S"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+    </li>
+  </ul>
+</div><!-- main-nav -->
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded',() => { initNavTree('_book_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Загрузка...</div>
+<div class="SRStatus" id="Searching">Поиск...</div>
+<div class="SRStatus" id="NoMatches">Не найдено</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Book.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_book_8h.html">См. документацию.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#ifndef BOOK_H</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#define BOOK_H</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#include &quot;<a class="code" href="_printed_publication_8h.html">PrintedPublication.h</a>&quot;</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keyword">using namespace </span>std;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span></div>
+<div class="foldopen" id="foldopen00037" data-start="{" data-end="};">
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="class_book.html">   37</a></span><span class="keyword">class </span><a class="code hl_function" href="class_book.html#a21d1708d72ee1536071a8a380bc5e318">Book</a> : <span class="keyword">public</span> <a class="code hl_function" href="class_printed_publication.html#a13978ed5e83d39e03e18f3b80b1e43a2">PrintedPublication</a></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>{</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="class_book.html#a73721fcd5f0131d61f0e0ae7257dd824">   41</a></span>    <span class="keywordtype">string</span> <a class="code hl_variable" href="class_book.html#a73721fcd5f0131d61f0e0ae7257dd824">author</a>;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <a class="code hl_function" href="class_book.html#a21d1708d72ee1536071a8a380bc5e318">Book</a>(<span class="keyword">const</span> <span class="keywordtype">string</span>&amp; <a class="code hl_variable" href="class_publication.html#a239672a58ef3fc23bc93bab0d91dbc99">title</a>, <span class="keyword">const</span> <span class="keywordtype">string</span>&amp; <a class="code hl_variable" href="class_publication.html#abd4be5ff353bd5822711f6be4e2127e4">isbn</a>, <span class="keywordtype">int</span> <a class="code hl_variable" href="class_printed_publication.html#affbb7c963deedbaddbfb9a6364187f72">pages</a>,</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>         <span class="keyword">const</span> <span class="keywordtype">string</span>&amp; <a class="code hl_variable" href="class_printed_publication.html#afe96c6fb416de02359c7cf1404129396">publisher</a>, <span class="keyword">const</span> <span class="keywordtype">string</span>&amp; <a class="code hl_variable" href="class_book.html#a73721fcd5f0131d61f0e0ae7257dd824">author</a>);</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <a class="code hl_function" href="class_book.html#a21d1708d72ee1536071a8a380bc5e318">Book</a>(<span class="keyword">const</span> <a class="code hl_function" href="class_book.html#a21d1708d72ee1536071a8a380bc5e318">Book</a>&amp; other);</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span></div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <a class="code hl_function" href="class_book.html#a21d1708d72ee1536071a8a380bc5e318">Book</a>&amp; <a class="code hl_function" href="class_book.html#a4a4926659f166535f24d426e9f0957e6">operator=</a>(<span class="keyword">const</span> <a class="code hl_function" href="class_book.html#a21d1708d72ee1536071a8a380bc5e318">Book</a>&amp; other);</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span></div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="class_book.html#a31ade3974c8ee5ee87b78315eccbe689">   82</a></span>    <a class="code hl_function" href="class_book.html#a31ade3974c8ee5ee87b78315eccbe689">~Book</a>() <span class="keyword">override</span> = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span></div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    <span class="keywordtype">string</span> <a class="code hl_function" href="class_book.html#a357d171d5d7c90340ee91a137edf958f">getAuthor</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span></div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    <span class="keywordtype">string</span> <a class="code hl_function" href="class_book.html#a21c69af75f27d6f6fddad596af9f6df7">getTitle</a>() <span class="keyword">const override</span>;</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span></div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    <span class="keywordtype">string</span> <a class="code hl_function" href="class_book.html#a702bfe8a3e2e0af730f8de9683219188">getISBN</a>() <span class="keyword">const override</span>;</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span></div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_book.html#afb49a2776782ef62a6288d3b8557700a">printInfo</a>() <span class="keyword">const override</span>;</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>};</div>
+</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span> </div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_printed_publication_8h_html"><div class="ttname"><a href="_printed_publication_8h.html">PrintedPublication.h</a></div><div class="ttdoc">Объявление промежуточного класса PrintedPublication.</div></div>
+<div class="ttc" id="aclass_book_html_a21c69af75f27d6f6fddad596af9f6df7"><div class="ttname"><a href="class_book.html#a21c69af75f27d6f6fddad596af9f6df7">Book::getTitle</a></div><div class="ttdeci">string getTitle() const override</div><div class="ttdoc">Возвращает название книги.</div><div class="ttdef"><b>Определения</b> Book.cpp:79</div></div>
+<div class="ttc" id="aclass_book_html_a21d1708d72ee1536071a8a380bc5e318"><div class="ttname"><a href="class_book.html#a21d1708d72ee1536071a8a380bc5e318">Book::Book</a></div><div class="ttdeci">Book(const string &amp;title, const string &amp;isbn, int pages, const string &amp;publisher, const string &amp;author)</div><div class="ttdoc">Создаёт новую книгу.</div><div class="ttdef"><b>Определения</b> Book.cpp:29</div></div>
+<div class="ttc" id="aclass_book_html_a31ade3974c8ee5ee87b78315eccbe689"><div class="ttname"><a href="class_book.html#a31ade3974c8ee5ee87b78315eccbe689">Book::~Book</a></div><div class="ttdeci">~Book() override=default</div><div class="ttdoc">Виртуальный деструктор книги.</div></div>
+<div class="ttc" id="aclass_book_html_a357d171d5d7c90340ee91a137edf958f"><div class="ttname"><a href="class_book.html#a357d171d5d7c90340ee91a137edf958f">Book::getAuthor</a></div><div class="ttdeci">string getAuthor() const</div><div class="ttdoc">Возвращает имя автора книги.</div><div class="ttdef"><b>Определения</b> Book.cpp:70</div></div>
+<div class="ttc" id="aclass_book_html_a4a4926659f166535f24d426e9f0957e6"><div class="ttname"><a href="class_book.html#a4a4926659f166535f24d426e9f0957e6">Book::operator=</a></div><div class="ttdeci">Book &amp; operator=(const Book &amp;other)</div><div class="ttdoc">Оператор присваивания книги.</div><div class="ttdef"><b>Определения</b> Book.cpp:55</div></div>
+<div class="ttc" id="aclass_book_html_a702bfe8a3e2e0af730f8de9683219188"><div class="ttname"><a href="class_book.html#a702bfe8a3e2e0af730f8de9683219188">Book::getISBN</a></div><div class="ttdeci">string getISBN() const override</div><div class="ttdoc">Возвращает ISBN книги.</div><div class="ttdef"><b>Определения</b> Book.cpp:88</div></div>
+<div class="ttc" id="aclass_book_html_a73721fcd5f0131d61f0e0ae7257dd824"><div class="ttname"><a href="class_book.html#a73721fcd5f0131d61f0e0ae7257dd824">Book::author</a></div><div class="ttdeci">string author</div><div class="ttdoc">Имя автора книги.</div><div class="ttdef"><b>Определения</b> Book.h:41</div></div>
+<div class="ttc" id="aclass_book_html_afb49a2776782ef62a6288d3b8557700a"><div class="ttname"><a href="class_book.html#afb49a2776782ef62a6288d3b8557700a">Book::printInfo</a></div><div class="ttdeci">void printInfo() const override</div><div class="ttdoc">Выводит полную информацию о книге.</div><div class="ttdef"><b>Определения</b> Book.cpp:99</div></div>
+<div class="ttc" id="aclass_printed_publication_html_a13978ed5e83d39e03e18f3b80b1e43a2"><div class="ttname"><a href="class_printed_publication.html#a13978ed5e83d39e03e18f3b80b1e43a2">PrintedPublication::PrintedPublication</a></div><div class="ttdeci">PrintedPublication(const string &amp;title, const string &amp;isbn, int pages, const string &amp;publisher)</div><div class="ttdoc">Создаёт новое печатное издание.</div><div class="ttdef"><b>Определения</b> PrintedPublication.cpp:28</div></div>
+<div class="ttc" id="aclass_printed_publication_html_afe96c6fb416de02359c7cf1404129396"><div class="ttname"><a href="class_printed_publication.html#afe96c6fb416de02359c7cf1404129396">PrintedPublication::publisher</a></div><div class="ttdeci">string publisher</div><div class="ttdoc">Название издательства, выпустившего издание.</div><div class="ttdef"><b>Определения</b> PrintedPublication.h:50</div></div>
+<div class="ttc" id="aclass_printed_publication_html_affbb7c963deedbaddbfb9a6364187f72"><div class="ttname"><a href="class_printed_publication.html#affbb7c963deedbaddbfb9a6364187f72">PrintedPublication::pages</a></div><div class="ttdeci">int pages</div><div class="ttdoc">Количество страниц печатного издания.</div><div class="ttdef"><b>Определения</b> PrintedPublication.h:47</div></div>
+<div class="ttc" id="aclass_publication_html_a239672a58ef3fc23bc93bab0d91dbc99"><div class="ttname"><a href="class_publication.html#a239672a58ef3fc23bc93bab0d91dbc99">Publication::title</a></div><div class="ttdeci">string title</div><div class="ttdoc">Название библиотечного издания.</div><div class="ttdef"><b>Определения</b> Publication.h:53</div></div>
+<div class="ttc" id="aclass_publication_html_abd4be5ff353bd5822711f6be4e2127e4"><div class="ttname"><a href="class_publication.html#abd4be5ff353bd5822711f6be4e2127e4">Publication::isbn</a></div><div class="ttdeci">string isbn</div><div class="ttdoc">Международный стандартный номер книги (ISBN).</div><div class="ttdef"><b>Определения</b> Publication.h:56</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a href="_book_8h.html">Book.h</a></li>
+    <li class="footer">Создано системой <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.18.0 </li>
+  </ul>
+</div>
+</body>
+</html>

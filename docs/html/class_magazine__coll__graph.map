@@ -1,0 +1,8 @@
+<map id="Magazine" name="Magazine">
+<area shape="rect" id="Node000001" title="Класс печатного журнала." alt="" coords="30,155,107,181"/>
+<area shape="rect" id="Node000002" href="$class_printed_publication.html" title="Промежуточный класс печатных изданий." alt="" coords="5,80,132,106"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="70,120,71,156,66,154,67,123"/>
+<area shape="rect" id="Node000003" href="$class_publication.html" title="Абстрактный базовый класс библиотечного издания." alt="" coords="26,5,111,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="69,44,71,81,66,80,68,49"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="126,10,138,18,129,26,113,28,110,23,127,21,133,18,127,15"/>
+</map>

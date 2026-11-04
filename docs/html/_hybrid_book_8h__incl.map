@@ -1,0 +1,14 @@
+<map id="include/HybridBook.h" name="include/HybridBook.h">
+<area shape="rect" id="Node000001" title="Объявление класса HybridBook — гибридной книги." alt="" coords="80,5,225,31"/>
+<area shape="rect" id="Node000002" href="$_book_8h.html" title="Объявление класса Book — обычной книги." alt="" coords="88,79,150,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,29,134,66,129,64,146,34"/>
+<area shape="rect" id="Node000006" href="$_digital_publication_8h.html" title="Объявление промежуточного класса DigitalPublication." alt="" coords="167,153,301,178"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="160,29,222,139,217,139,158,34"/>
+<area shape="rect" id="Node000003" href="$_printed_publication_8h.html" title="Объявление промежуточного класса PrintedPublication." alt="" coords="5,153,143,178"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="111,107,92,141,87,138,113,103"/>
+<area shape="rect" id="Node000004" href="$_publication_8h.html" title="Объявление абстрактного базового класса Publication." alt="" coords="106,226,202,252"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="88,176,132,215,127,217,87,182"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="127,300,181,326"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="156,250,156,285,152,283,152,254"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="223,177,180,218,177,214,218,180"/>
+</map>

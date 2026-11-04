@@ -1,0 +1,18 @@
+<map id="src/HybridBook.cpp" name="src/HybridBook.cpp">
+<area shape="rect" id="Node000001" title="Реализация методов класса HybridBook." alt="" coords="139,5,276,31"/>
+<area shape="rect" id="Node000002" href="$_hybrid_book_8h.html" title="Объявление класса HybridBook — гибридной книги." alt="" coords="102,79,203,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,34,173,68,169,65,200,29"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="226,79,298,105"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="216,29,246,66,241,67,216,34"/>
+<area shape="rect" id="Node000003" href="$_book_8h.html" title="Объявление класса Book — обычной книги." alt="" coords="88,153,150,178"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="148,102,134,140,129,137,146,107"/>
+<area shape="rect" id="Node000007" href="$_digital_publication_8h.html" title="Объявление промежуточного класса DigitalPublication." alt="" coords="167,226,301,252"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="160,103,222,212,217,213,158,107"/>
+<area shape="rect" id="Node000004" href="$_printed_publication_8h.html" title="Объявление промежуточного класса PrintedPublication." alt="" coords="5,226,143,252"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="111,181,92,215,87,212,113,176"/>
+<area shape="rect" id="Node000005" href="$_publication_8h.html" title="Объявление абстрактного базового класса Publication." alt="" coords="106,300,202,326"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="88,250,132,289,127,291,87,255"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="127,374,181,399"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="156,324,156,359,152,357,152,328"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="223,251,180,292,177,288,218,254"/>
+</map>

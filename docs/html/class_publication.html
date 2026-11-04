@@ -1,0 +1,793 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.18.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Лабораторная работа №4 - Библиотечные издания (8): Класс Publication</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="codefolding.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Лабораторная работа №4 - Библиотечные издания (8)
+   </div>
+   <div id="projectbrief">Вариант 8. Система учёта библиотечных изданий</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.18.0 -->
+<script type="text/javascript">
+let searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded', codefold.init);
+</script>
+<script type="application/json" id="doxygen-config">
+{
+  "relPath": "",
+  "generateTreeView": true,
+  "searchEngine": true,
+  "serverBasedSearch": false,
+  "disableIndex": false,
+  "dynamicMenus": true,
+  "fullSidebar": false
+}
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<div id="main-nav-mobile">
+<div class="sm sm-dox"><input id="main-menu-state" type="checkbox"/>
+<label class="main-menu-btn" for="main-menu-state">
+<span class="main-menu-btn-icon"></span> Toggle main menu visibility</label>
+<span id="searchBoxPos1"></span>
+</div>
+</div><!-- main-nav-mobile -->
+<div id="main-nav">
+  <ul class="sm sm-dox" id="main-menu">
+    <li id="searchBoxPos2">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="Поиск" accesskey="S"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+    </li>
+  </ul>
+</div><!-- main-nav -->
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded',() => { initNavTree('class_publication.html','','class_publication-members'); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Загрузка...</div>
+<div class="SRStatus" id="Searching">Поиск...</div>
+<div class="SRStatus" id="NoMatches">Не найдено</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Класс Publication<span class="mlabels"><span class="mlabel abstract">abstract</span></span></div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Абстрактный базовый класс библиотечного издания.  
+ <a href="#details">Подробнее...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_publication_8h_source.html">Publication.h</a>&gt;</code></p>
+<div class="dynheader">
+Граф наследования:Publication:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_publication__inherit__graph.png" border="0" usemap="#a_publication_inherit__map" loading="lazy" alt="Inheritance graph"/></div>
+<map name="a_publication_inherit__map" id="a_publication_inherit__map">
+<area shape="rect" title="Абстрактный базовый класс библиотечного издания." alt="" coords="100,5,185,31"/>
+<area shape="rect" href="class_digital_publication.html" title="Промежуточный класс электронных изданий." alt="" coords="8,79,130,105"/>
+<area shape="poly" title=" " alt="" coords="118,44,83,80,79,77,120,40"/>
+<area shape="rect" href="class_printed_publication.html" title="Промежуточный класс печатных изданий." alt="" coords="154,79,280,105"/>
+<area shape="poly" title=" " alt="" coords="166,39,207,78,202,79,165,45"/>
+<area shape="rect" href="class_e_book.html" title="Класс электронной книги." alt="" coords="5,153,66,178"/>
+<area shape="poly" title=" " alt="" coords="56,121,44,153,39,151,58,116"/>
+<area shape="rect" href="class_hybrid_book.html" title="Класс гибридной книги." alt="" coords="90,226,179,252"/>
+<area shape="poly" title=" " alt="" coords="82,117,131,225,126,226,79,121"/>
+<area shape="rect" href="class_book.html" title="Класс печатной книги." alt="" coords="140,153,192,178"/>
+<area shape="poly" title=" " alt="" coords="202,115,177,154,173,150,198,119"/>
+<area shape="rect" href="class_magazine.html" title="Класс печатного журнала." alt="" coords="216,153,293,178"/>
+<area shape="poly" title=" " alt="" coords="231,116,250,153,245,152,229,121"/>
+<area shape="poly" title=" " alt="" coords="157,191,142,228,138,224,152,194"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">см. легенду</a>]</span></center></div>
+<div class="dynheader">
+Граф связей класса Publication:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_publication__coll__graph.png" border="0" usemap="#a_publication_coll__map" loading="lazy" alt="Collaboration graph"/></div>
+<map name="a_publication_coll__map" id="a_publication_coll__map">
+<area shape="rect" title="Абстрактный базовый класс библиотечного издания." alt="" coords="5,5,91,31"/>
+<area shape="poly" title=" " alt="" coords="107,12,117,18,109,24,91,26,91,20,107,19,112,18,106,17"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">см. легенду</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:a59b2bb1ebc7100a3f18772caa1dee43d" id="r_a59b2bb1ebc7100a3f18772caa1dee43d"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a59b2bb1ebc7100a3f18772caa1dee43d">Publication</a> (const string &amp;title, const string &amp;isbn)</td></tr>
+<tr class="memdesc:a59b2bb1ebc7100a3f18772caa1dee43d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Создаёт новое библиотечное издание.  <br /></td></tr>
+<tr class="memitem:a1d18f32cf8c9b936e0be70450d1a53c1" id="r_a1d18f32cf8c9b936e0be70450d1a53c1"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a1d18f32cf8c9b936e0be70450d1a53c1">Publication</a> (const <a class="el" href="class_publication.html">Publication</a> &amp;other)</td></tr>
+<tr class="memdesc:a1d18f32cf8c9b936e0be70450d1a53c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Создаёт копию существующего издания.  <br /></td></tr>
+<tr class="memitem:ab8f83e2529f817cba9f7265fc3146ee6" id="r_ab8f83e2529f817cba9f7265fc3146ee6"><td class="memItemLeft"><a class="el" href="class_publication.html">Publication</a> &amp;&#160;</td><td class="memItemRight"><a class="el" href="#ab8f83e2529f817cba9f7265fc3146ee6">operator=</a> (const <a class="el" href="class_publication.html">Publication</a> &amp;other)</td></tr>
+<tr class="memdesc:ab8f83e2529f817cba9f7265fc3146ee6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Присваивает текущему объекту данные другого издания.  <br /></td></tr>
+<tr class="memitem:ab9c3da028128140aea86b90b17a2d07f" id="r_ab9c3da028128140aea86b90b17a2d07f"><td class="memItemLeft">virtual&#160;</td><td class="memItemRight"><a class="el" href="#ab9c3da028128140aea86b90b17a2d07f">~Publication</a> ()</td></tr>
+<tr class="memdesc:ab9c3da028128140aea86b90b17a2d07f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Виртуальный деструктор базового класса.  <br /></td></tr>
+<tr class="memitem:af487d9ec4dffbc6b2e61ab2a5efcd7d2" id="r_af487d9ec4dffbc6b2e61ab2a5efcd7d2"><td class="memItemLeft">virtual string&#160;</td><td class="memItemRight"><a class="el" href="#af487d9ec4dffbc6b2e61ab2a5efcd7d2">getTitle</a> () const =0</td></tr>
+<tr class="memdesc:af487d9ec4dffbc6b2e61ab2a5efcd7d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает название издания.  <br /></td></tr>
+<tr class="memitem:a0d43692202b709295beffd2adb43e290" id="r_a0d43692202b709295beffd2adb43e290"><td class="memItemLeft">virtual string&#160;</td><td class="memItemRight"><a class="el" href="#a0d43692202b709295beffd2adb43e290">getISBN</a> () const =0</td></tr>
+<tr class="memdesc:a0d43692202b709295beffd2adb43e290"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает ISBN издания.  <br /></td></tr>
+<tr class="memitem:af2f10e84c130b6fe9a3ff66534aea3e6" id="r_af2f10e84c130b6fe9a3ff66534aea3e6"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#af2f10e84c130b6fe9a3ff66534aea3e6">printInfo</a> () const =0</td></tr>
+<tr class="memdesc:af2f10e84c130b6fe9a3ff66534aea3e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Выводит информацию об издании.  <br /></td></tr>
+<tr class="memitem:a380890532ea0556d52dd1a6e0d91ec3f" id="r_a380890532ea0556d52dd1a6e0d91ec3f"><td class="memItemLeft">virtual bool&#160;</td><td class="memItemRight"><a class="el" href="#a380890532ea0556d52dd1a6e0d91ec3f">isDigital</a> () const</td></tr>
+<tr class="memdesc:a380890532ea0556d52dd1a6e0d91ec3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Проверяет, является ли издание электронным.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Открытые статические члены</h2></td></tr>
+<tr class="memitem:af3b5f9e2b33db38948a705fb140434e2" id="r_af3b5f9e2b33db38948a705fb140434e2"><td class="memItemLeft">static int&#160;</td><td class="memItemRight"><a class="el" href="#af3b5f9e2b33db38948a705fb140434e2">getTotalCount</a> ()</td></tr>
+<tr class="memdesc:af3b5f9e2b33db38948a705fb140434e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает общее количество существующих изданий.  <br /></td></tr>
+<tr class="memitem:abbf93d883260bf33b1d0c4b93e7a7770" id="r_abbf93d883260bf33b1d0c4b93e7a7770"><td class="memItemLeft">static int&#160;</td><td class="memItemRight"><a class="el" href="#abbf93d883260bf33b1d0c4b93e7a7770">getDigitalCount</a> ()</td></tr>
+<tr class="memdesc:abbf93d883260bf33b1d0c4b93e7a7770"><td class="mdescLeft">&#160;</td><td class="mdescRight">Возвращает количество существующих электронных изданий.  <br /></td></tr>
+<tr class="memitem:a616068099904f6426ce54b30a5cc2bbd" id="r_a616068099904f6426ce54b30a5cc2bbd"><td class="memItemLeft">static <a class="el" href="class_publication.html">Publication</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a616068099904f6426ce54b30a5cc2bbd">findByISBN</a> (const string &amp;<a class="el" href="#abd4be5ff353bd5822711f6be4e2127e4">isbn</a>)</td></tr>
+<tr class="memdesc:a616068099904f6426ce54b30a5cc2bbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Выполняет поиск издания по ISBN.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Защищенные данные</h2></td></tr>
+<tr class="memitem:a239672a58ef3fc23bc93bab0d91dbc99" id="r_a239672a58ef3fc23bc93bab0d91dbc99"><td class="memItemLeft">string&#160;</td><td class="memItemRight"><a class="el" href="#a239672a58ef3fc23bc93bab0d91dbc99">title</a></td></tr>
+<tr class="memdesc:a239672a58ef3fc23bc93bab0d91dbc99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Название библиотечного издания.  <br /></td></tr>
+<tr class="memitem:abd4be5ff353bd5822711f6be4e2127e4" id="r_abd4be5ff353bd5822711f6be4e2127e4"><td class="memItemLeft">string&#160;</td><td class="memItemRight"><a class="el" href="#abd4be5ff353bd5822711f6be4e2127e4">isbn</a></td></tr>
+<tr class="memdesc:abd4be5ff353bd5822711f6be4e2127e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Международный стандартный номер книги (ISBN).  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pro-static-attribs" class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
+Статические защищенные данные</h2></td></tr>
+<tr class="memitem:abefcfdf6309a4d98c2c56bd834da1018" id="r_abefcfdf6309a4d98c2c56bd834da1018"><td class="memItemLeft">static int&#160;</td><td class="memItemRight"><a class="el" href="#abefcfdf6309a4d98c2c56bd834da1018">totalCount</a> = 0</td></tr>
+<tr class="memdesc:abefcfdf6309a4d98c2c56bd834da1018"><td class="mdescLeft">&#160;</td><td class="mdescRight">Общее количество существующих объектов всех типов изданий.  <br /></td></tr>
+<tr class="memitem:a32791f66c4ca239a4a3356f3351aee57" id="r_a32791f66c4ca239a4a3356f3351aee57"><td class="memItemLeft">static int&#160;</td><td class="memItemRight"><a class="el" href="#a32791f66c4ca239a4a3356f3351aee57">digitalCount</a> = 0</td></tr>
+<tr class="memdesc:a32791f66c4ca239a4a3356f3351aee57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Количество существующих электронных изданий.  <br /></td></tr>
+<tr class="memitem:a6a0b8c8d1b87e7de7eebce617d8afffc" id="r_a6a0b8c8d1b87e7de7eebce617d8afffc"><td class="memItemLeft">static <a class="el" href="class_publication.html">Publication</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a6a0b8c8d1b87e7de7eebce617d8afffc">registry</a> [100] = {}</td></tr>
+<tr class="memdesc:a6a0b8c8d1b87e7de7eebce617d8afffc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Массив указателей на зарегистрированные объекты изданий.  <br /></td></tr>
+<tr class="memitem:aebbfd9a4210a8889f53876b1d5d64832" id="r_aebbfd9a4210a8889f53876b1d5d64832"><td class="memItemLeft">static int&#160;</td><td class="memItemRight"><a class="el" href="#aebbfd9a4210a8889f53876b1d5d64832">registryCount</a> = 0</td></tr>
+<tr class="memdesc:aebbfd9a4210a8889f53876b1d5d64832"><td class="mdescLeft">&#160;</td><td class="mdescRight">Текущее количество объектов, зарегистрированных в массиве registry.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-friends" class="groupheader"><a id="friends" name="friends"></a>
+Друзья</h2></td></tr>
+<tr class="memitem:adbc69bae21851f592aa6f43979a04820" id="r_adbc69bae21851f592aa6f43979a04820"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#adbc69bae21851f592aa6f43979a04820">printPublication</a> (const <a class="el" href="class_publication.html">Publication</a> &amp;publication)</td></tr>
+<tr class="memdesc:adbc69bae21851f592aa6f43979a04820"><td class="mdescLeft">&#160;</td><td class="mdescRight">Дружественная функция для вывода информации об издании.  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Абстрактный базовый класс библиотечного издания. </p>
+<p>Хранит общую информацию об издании: название и ISBN. Также содержит общие счётчики созданных объектов и статический массив для регистрации существующих объектов.</p>
+<p>Класс является абстрактным, поскольку содержит чисто виртуальные методы <a class="el" href="#af487d9ec4dffbc6b2e61ab2a5efcd7d2" title="Возвращает название издания.">getTitle()</a>, <a class="el" href="#a0d43692202b709295beffd2adb43e290" title="Возвращает ISBN издания.">getISBN()</a> и <a class="el" href="#af2f10e84c130b6fe9a3ff66534aea3e6" title="Выводит информацию об издании.">printInfo()</a>. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Конструктор(ы)</h2>
+<a id="a59b2bb1ebc7100a3f18772caa1dee43d" name="a59b2bb1ebc7100a3f18772caa1dee43d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59b2bb1ebc7100a3f18772caa1dee43d">&#9670;&#160;</a></span>Publication() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Publication::Publication </td>
+          <td>(</td>
+          <td class="paramtype">const string &amp;</td>          <td class="paramname"><span class="paramname"><em>title</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const string &amp;</td>          <td class="paramname"><span class="paramname"><em>isbn</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Создаёт новое библиотечное издание. </p>
+<p>Конструктор нового издания.</p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">title</td><td>Название издания. </td></tr>
+    <tr><td class="paramname">isbn</td><td>ISBN издания.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Увеличивает общий счётчик объектов и регистрирует объект в массиве registry, если в нём есть свободное место.</p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">title</td><td>Название издания. </td></tr>
+    <tr><td class="paramname">isbn</td><td>ISBN издания.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Сохраняет переданные данные, увеличивает общий счётчик и добавляет адрес созданного объекта в массив registry. </p>
+
+</div>
+</div>
+<a id="a1d18f32cf8c9b936e0be70450d1a53c1" name="a1d18f32cf8c9b936e0be70450d1a53c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d18f32cf8c9b936e0be70450d1a53c1">&#9670;&#160;</a></span>Publication() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Publication::Publication </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_publication.html">Publication</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Создаёт копию существующего издания. </p>
+<p>Конструктор копирования.</p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>Объект, данные которого копируются.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Копирует название и ISBN, увеличивает общий счётчик и регистрирует новый объект.</p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>Исходный объект для копирования.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Создаёт независимую копию строковых полей, увеличивает общий счётчик и регистрирует новый объект. </p>
+
+</div>
+</div>
+<a id="ab9c3da028128140aea86b90b17a2d07f" name="ab9c3da028128140aea86b90b17a2d07f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9c3da028128140aea86b90b17a2d07f">&#9670;&#160;</a></span>~Publication()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Publication::~Publication </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Виртуальный деструктор базового класса. </p>
+<p>Деструктор базового класса.</p>
+<p>Удаляет указатель на текущий объект из массива registry и уменьшает общий счётчик объектов.</p>
+<p>Виртуальность деструктора необходима для корректного удаления объектов производных классов через указатель на базовый класс.</p>
+<p>Находит текущий объект в массиве registry, удаляет его из массива и уменьшает общий счётчик объектов. </p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Методы</h2>
+<a id="a616068099904f6426ce54b30a5cc2bbd" name="a616068099904f6426ce54b30a5cc2bbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a616068099904f6426ce54b30a5cc2bbd">&#9670;&#160;</a></span>findByISBN()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_publication.html">Publication</a> * Publication::findByISBN </td>
+          <td>(</td>
+          <td class="paramtype">const string &amp;</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Выполняет поиск издания по ISBN. </p>
+<p>Ищет издание по его ISBN.</p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">isbn</td><td>ISBN искомого издания. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Указатель на найденный объект или nullptr, если издание не найдено.</dd></dl>
+<p>Поиск выполняется среди объектов, зарегистрированных в статическом массиве registry.</p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>ISBN, по которому выполняется поиск. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Указатель на найденное издание или nullptr, если совпадений нет.</dd></dl>
+<p>Последовательно проверяет зарегистрированные объекты. Для получения ISBN используется виртуальный метод <a class="el" href="#a0d43692202b709295beffd2adb43e290" title="Возвращает ISBN издания.">getISBN()</a>. </p>
+
+</div>
+</div>
+<a id="abbf93d883260bf33b1d0c4b93e7a7770" name="abbf93d883260bf33b1d0c4b93e7a7770"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbf93d883260bf33b1d0c4b93e7a7770">&#9670;&#160;</a></span>getDigitalCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Publication::getDigitalCount </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Возвращает количество существующих электронных изданий. </p>
+<p>Получает количество электронных изданий.</p>
+<dl class="section return"><dt>Возвращает</dt><dd>Количество электронных изданий.</dd>
+<dd>
+Значение статического счётчика digitalCount. </dd></dl>
+
+</div>
+</div>
+<a id="a0d43692202b709295beffd2adb43e290" name="a0d43692202b709295beffd2adb43e290"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d43692202b709295beffd2adb43e290">&#9670;&#160;</a></span>getISBN()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual string Publication::getISBN </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Возвращает ISBN издания. </p>
+<dl class="section return"><dt>Возвращает</dt><dd>ISBN издания.</dd></dl>
+<p>Чисто виртуальный метод. Реализуется в производных классах. </p>
+
+<p>Замещается в <a class="el" href="class_book.html#a702bfe8a3e2e0af730f8de9683219188">Book</a>, <a class="el" href="class_e_book.html#aac70ea1cf0b17d36a82ba3b3853162b5">EBook</a>, <a class="el" href="class_hybrid_book.html#adfc3fc45e9851bb3aed987565f99c785">HybridBook</a> и <a class="el" href="class_magazine.html#a630a68ca777640346426240931d2f786">Magazine</a>.</p>
+
+</div>
+</div>
+<a id="af487d9ec4dffbc6b2e61ab2a5efcd7d2" name="af487d9ec4dffbc6b2e61ab2a5efcd7d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af487d9ec4dffbc6b2e61ab2a5efcd7d2">&#9670;&#160;</a></span>getTitle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual string Publication::getTitle </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Возвращает название издания. </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Название издания.</dd></dl>
+<p>Чисто виртуальный метод. Реализуется в производных классах. </p>
+
+<p>Замещается в <a class="el" href="class_book.html#a21c69af75f27d6f6fddad596af9f6df7">Book</a>, <a class="el" href="class_e_book.html#abf7f712bbf90bfeffcbbae54cbf8fa16">EBook</a>, <a class="el" href="class_hybrid_book.html#ab61aa3518651767310a58c884da77859">HybridBook</a> и <a class="el" href="class_magazine.html#a906379ecbbb284fbfc15abff778e96b3">Magazine</a>.</p>
+
+</div>
+</div>
+<a id="af3b5f9e2b33db38948a705fb140434e2" name="af3b5f9e2b33db38948a705fb140434e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3b5f9e2b33db38948a705fb140434e2">&#9670;&#160;</a></span>getTotalCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Publication::getTotalCount </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Возвращает общее количество существующих изданий. </p>
+<p>Получает общее количество существующих изданий.</p>
+<dl class="section return"><dt>Возвращает</dt><dd>Количество объектов всех типов изданий.</dd>
+<dd>
+Значение статического счётчика totalCount. </dd></dl>
+
+</div>
+</div>
+<a id="a380890532ea0556d52dd1a6e0d91ec3f" name="a380890532ea0556d52dd1a6e0d91ec3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a380890532ea0556d52dd1a6e0d91ec3f">&#9670;&#160;</a></span>isDigital()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Publication::isDigital </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Проверяет, является ли издание электронным. </p>
+<dl class="section return"><dt>Возвращает</dt><dd>false — если издание не является электронным.</dd></dl>
+<p>Виртуальный метод с реализацией по умолчанию. В производном классе <a class="el" href="class_digital_publication.html" title="Промежуточный класс электронных изданий.">DigitalPublication</a> переопределяется для электронных изданий.</p>
+<dl class="section return"><dt>Возвращает</dt><dd>false, поскольку базовое издание по умолчанию считается неэлектронным. </dd></dl>
+
+<p>Переопределяется в <a class="el" href="class_digital_publication.html#aa9cd3bb2ae5e523d9dd94ced1768113c">DigitalPublication</a> и <a class="el" href="class_hybrid_book.html#a00b5907f5a0f7a55b081f30496751896">HybridBook</a>.</p>
+
+</div>
+</div>
+<a id="ab8f83e2529f817cba9f7265fc3146ee6" name="ab8f83e2529f817cba9f7265fc3146ee6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8f83e2529f817cba9f7265fc3146ee6">&#9670;&#160;</a></span>operator=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_publication.html">Publication</a> &amp; Publication::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_publication.html">Publication</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Присваивает текущему объекту данные другого издания. </p>
+<p>Оператор присваивания.</p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>Объект, данные которого присваиваются. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Ссылка на текущий объект.</dd></dl>
+<p>Выполняет проверку на самоприсваивание.</p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>Объект, данные которого копируются. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Ссылка на текущий объект.</dd></dl>
+<p>Проверяет, не выполняется ли самоприсваивание. Затем копирует название и ISBN. </p>
+
+</div>
+</div>
+<a id="af2f10e84c130b6fe9a3ff66534aea3e6" name="af2f10e84c130b6fe9a3ff66534aea3e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2f10e84c130b6fe9a3ff66534aea3e6">&#9670;&#160;</a></span>printInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Publication::printInfo </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Выводит информацию об издании. </p>
+<p>Чисто виртуальный метод. Каждый производный класс самостоятельно определяет формат вывода информации. </p>
+
+<p>Замещается в <a class="el" href="class_book.html#afb49a2776782ef62a6288d3b8557700a">Book</a>, <a class="el" href="class_digital_publication.html#aab96e73167cbb59dbd5c95eb9bfae532">DigitalPublication</a>, <a class="el" href="class_e_book.html#afec23af36e32a72b6d1a8d44d14bf502">EBook</a>, <a class="el" href="class_hybrid_book.html#ae22130d7f3d14cb35e1897676d295f64">HybridBook</a>, <a class="el" href="class_magazine.html#ae0be15d2098f8a1df6ca447823c27992">Magazine</a> и <a class="el" href="class_printed_publication.html#a078c317a1090eae030b56d2e08d10d7e">PrintedPublication</a>.</p>
+
+</div>
+</div>
+<a name="doc-related-members" id="doc-related-members"></a><h2 id="header-doc-related-members" class="groupheader">Друзья класса и относящимся к классу обозначения</h2>
+<a id="adbc69bae21851f592aa6f43979a04820" name="adbc69bae21851f592aa6f43979a04820"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbc69bae21851f592aa6f43979a04820">&#9670;&#160;</a></span>printPublication</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void printPublication </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_publication.html">Publication</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>publication</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel friend">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Дружественная функция для вывода информации об издании. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">publication</td><td>Объект, информацию о котором необходимо вывести.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Функция имеет доступ к защищённым и закрытым членам класса. Сам вывод выполняется через виртуальный метод <a class="el" href="#af2f10e84c130b6fe9a3ff66534aea3e6" title="Выводит информацию об издании.">printInfo()</a>.</p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">publication</td><td>Издание, информацию о котором необходимо вывести.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Вызывает виртуальный метод <a class="el" href="#af2f10e84c130b6fe9a3ff66534aea3e6" title="Выводит информацию об издании.">printInfo()</a>, поэтому формат вывода определяется фактическим типом переданного объекта. </p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Данные класса</h2>
+<a id="a32791f66c4ca239a4a3356f3351aee57" name="a32791f66c4ca239a4a3356f3351aee57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32791f66c4ca239a4a3356f3351aee57">&#9670;&#160;</a></span>digitalCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Publication::digitalCount = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Количество существующих электронных изданий. </p>
+<p>Инициализация счётчика электронных изданий. </p>
+
+</div>
+</div>
+<a id="abd4be5ff353bd5822711f6be4e2127e4" name="abd4be5ff353bd5822711f6be4e2127e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd4be5ff353bd5822711f6be4e2127e4">&#9670;&#160;</a></span>isbn</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Publication::isbn</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Международный стандартный номер книги (ISBN). </p>
+
+</div>
+</div>
+<a id="a6a0b8c8d1b87e7de7eebce617d8afffc" name="a6a0b8c8d1b87e7de7eebce617d8afffc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a0b8c8d1b87e7de7eebce617d8afffc">&#9670;&#160;</a></span>registry</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_publication.html">Publication</a> * Publication::registry = {}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Массив указателей на зарегистрированные объекты изданий. </p>
+<p>Инициализация массива зарегистрированных объектов.</p>
+<p>Используется методом <a class="el" href="#a616068099904f6426ce54b30a5cc2bbd" title="Выполняет поиск издания по ISBN.">findByISBN()</a> для поиска издания по ISBN. Максимальная вместимость массива — 100 объектов. </p>
+
+</div>
+</div>
+<a id="aebbfd9a4210a8889f53876b1d5d64832" name="aebbfd9a4210a8889f53876b1d5d64832"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebbfd9a4210a8889f53876b1d5d64832">&#9670;&#160;</a></span>registryCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Publication::registryCount = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Текущее количество объектов, зарегистрированных в массиве registry. </p>
+<p>Инициализация количества зарегистрированных объектов. </p>
+
+</div>
+</div>
+<a id="a239672a58ef3fc23bc93bab0d91dbc99" name="a239672a58ef3fc23bc93bab0d91dbc99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a239672a58ef3fc23bc93bab0d91dbc99">&#9670;&#160;</a></span>title</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Publication::title</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Название библиотечного издания. </p>
+
+</div>
+</div>
+<a id="abefcfdf6309a4d98c2c56bd834da1018" name="abefcfdf6309a4d98c2c56bd834da1018"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abefcfdf6309a4d98c2c56bd834da1018">&#9670;&#160;</a></span>totalCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Publication::totalCount = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Общее количество существующих объектов всех типов изданий. </p>
+<p>Инициализация общего счётчика объектов изданий. </p>
+
+</div>
+</div>
+<hr/>Объявления и описания членов классов находятся в файлах:<ul>
+<li>include/<a class="el" href="_publication_8h_source.html">Publication.h</a></li>
+<li>src/<a class="el" href="_publication_8cpp.html">Publication.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="class_publication.html">Publication</a></li>
+    <li class="footer">Создано системой <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.18.0 </li>
+  </ul>
+</div>
+</body>
+</html>

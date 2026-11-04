@@ -1,0 +1,7 @@
+<map id="include/Magazine.h" name="include/Magazine.h">
+<area shape="rect" id="Node000001" title="Объявление класса Magazine — журнала." alt="" coords="68,5,201,31"/>
+<area shape="rect" id="Node000002" href="$_magazine_8cpp.html" title="Реализация методов класса Magazine." alt="" coords="5,79,130,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,42,80,81,77,77,110,43"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html" title="Тестовая программа для проверки иерархии библиотечных изданий." alt="" coords="154,79,250,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="157,40,193,79,188,78,155,45"/>
+</map>
