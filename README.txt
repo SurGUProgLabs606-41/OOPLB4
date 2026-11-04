@@ -57,6 +57,14 @@ DYLD_LIBRARY_PATH=../lib ../bin/test_dynamic
 Важно: publications.txt должен находиться в текущей рабочей папке при запуске программы.
 
 
+Пересборка статической программы:
+g++ -std=c++17 -Wall -Wextra -Iinclude \
+src/main.cpp lib/liblab4.a \
+-o bin/test_static
+
+Проверка на статичность:
+otool -L bin/test_static
+
 
 СБОРКА ПОД WINDOWS
 mingw-w64 для обращения через терминал

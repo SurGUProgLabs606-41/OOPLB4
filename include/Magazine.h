@@ -3,19 +3,22 @@
 
 #include "PrintedPublication.h"
 
-class Magazine : public PrintedPublication {
+using namespace std;
+
+class Magazine : public PrintedPublication
+{
 private:
     int issueNumber;
 
 public:
-    Magazine(const std::string& title, const std::string& isbn, int pages,
-            const std::string& publisher, int issueNumber);
-    Magazine(const Magazine& other);
-    Magazine& operator=(const Magazine& other);
+    Magazine(const string &title, const string &isbn, int pages,
+             const string &publisher, int issueNumber);
+    Magazine(const Magazine &other);
+    Magazine &operator=(const Magazine &other);
     ~Magazine() override = default;
 
-    std::string getTitle() const override;
-    std::string getISBN() const override;
+    string getTitle() const override;
+    string getISBN() const override;
     void printInfo() const override;
 };
 

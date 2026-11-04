@@ -3,20 +3,23 @@
 
 #include "Publication.h"
 
-class DigitalPublication : virtual public Publication {
+using namespace std;
+
+class DigitalPublication : virtual public Publication
+{
 protected:
     double fileSize;
-    std::string format;
+    string format;
 
 public:
-    DigitalPublication(const std::string& title, const std::string& isbn,
-                       double fileSize, const std::string& format);
-    DigitalPublication(const DigitalPublication& other);
-    DigitalPublication& operator=(const DigitalPublication& other);
+    DigitalPublication(const string &title, const string &isbn,
+                       double fileSize, const string &format);
+    DigitalPublication(const DigitalPublication &other);
+    DigitalPublication &operator=(const DigitalPublication &other);
     ~DigitalPublication() override;
 
     double getFileSize() const;
-    std::string getFormat() const;
+    string getFormat() const;
     bool isDigital() const override;
     void printInfo() const override;
 };
