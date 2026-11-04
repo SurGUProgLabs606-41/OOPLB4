@@ -27,11 +27,15 @@ build/HybridBook.o
 
 Компиляция тестовой программы:
 g++ -std=c++17 -Wall -Wextra -Iinclude \
-src/main.cpp -Llib -llab4 -o bin/test_static
+src/main.cpp lib/liblab4.a \
+-o bin/test_static
 
 Запуск:
 cd data
 ../bin/test_static
+
+Проверка на статичность:
+otool -L bin/test_static
 
 
 Динамическая библиотека:
@@ -55,15 +59,6 @@ cd data
 DYLD_LIBRARY_PATH=../lib ../bin/test_dynamic
 
 Важно: publications.txt должен находиться в текущей рабочей папке при запуске программы.
-
-
-Пересборка статической программы:
-g++ -std=c++17 -Wall -Wextra -Iinclude \
-src/main.cpp lib/liblab4.a \
--o bin/test_static
-
-Проверка на статичность:
-otool -L bin/test_static
 
 
 СБОРКА ПОД WINDOWS
