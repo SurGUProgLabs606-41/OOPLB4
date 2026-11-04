@@ -1,15 +1,19 @@
 #include "PrintedPublication.h"
 #include <iostream>
 
-PrintedPublication::PrintedPublication(const std::string& title, const std::string& isbn,
-                                       int pages, const std::string& publisher)
+using namespace std;
+
+PrintedPublication::PrintedPublication(const string &title, const string &isbn,
+                                       int pages, const string &publisher)
     : Publication(title, isbn), pages(pages), publisher(publisher) {}
 
-PrintedPublication::PrintedPublication(const PrintedPublication& other)
+PrintedPublication::PrintedPublication(const PrintedPublication &other)
     : Publication(other), pages(other.pages), publisher(other.publisher) {}
 
-PrintedPublication& PrintedPublication::operator=(const PrintedPublication& other) {
-    if (this != &other) {
+PrintedPublication &PrintedPublication::operator=(const PrintedPublication &other)
+{
+    if (this != &other)
+    {
         Publication::operator=(other);
         pages = other.pages;
         publisher = other.publisher;
@@ -18,9 +22,10 @@ PrintedPublication& PrintedPublication::operator=(const PrintedPublication& othe
 }
 
 int PrintedPublication::getPages() const { return pages; }
-std::string PrintedPublication::getPublisher() const { return publisher; }
+string PrintedPublication::getPublisher() const { return publisher; }
 
-void PrintedPublication::printInfo() const {
-    std::cout << "Печатное издание: " << title << "\nISBN: " << isbn
-              << "\nСтраниц: " << pages << "\nИздательство: " << publisher << "\n";
+void PrintedPublication::printInfo() const
+{
+    cout << "Печатное издание: " << title << "\nISBN: " << isbn
+         << "\nСтраниц: " << pages << "\nИздательство: " << publisher << "\n";
 }

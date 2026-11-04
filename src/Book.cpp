@@ -1,8 +1,10 @@
 #include "Book.h"
 #include <iostream>
 
-Book::Book(const std::string& title, const std::string& isbn, int pages,
-           const std::string& publisher, const std::string& author)
+using namespace std;
+
+Book::Book(const string& title, const string& isbn, int pages,
+           const string& publisher, const string& author)
     : Publication(title, isbn), PrintedPublication(title, isbn, pages, publisher), author(author) {}
 
 Book::Book(const Book& other)
@@ -16,11 +18,10 @@ Book& Book::operator=(const Book& other) {
     return *this;
 }
 
-std::string Book::getAuthor() const { return author; }
-std::string Book::getTitle() const { return title; }
-std::string Book::getISBN() const { return isbn; }
+string Book::getAuthor() const { return author; }
+string Book::getTitle() const { return title; }
+string Book::getISBN() const { return isbn; }
 
 void Book::printInfo() const {
-    std::cout << "Книга: " << title << "\nISBN: " << isbn << "\nАвтор: " << author
-              << "\nСтраниц: " << pages << "\nИздательство: " << publisher << "\n";
+    cout << "Книга: " << title << "\nISBN: " << isbn << "\nАвтор: " << author << "\nСтраниц: " << pages << "\nИздательство: " << publisher << "\n";
 }
