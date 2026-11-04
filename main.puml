@@ -1,0 +1,78 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+skinparam shadowing false
+hide empty members
+
+abstract class Publication {
+    # title : string
+    # isbn : string
+    {static} # totalCount : int
+    {static} # digitalCount : int
+    {static} # registry : Publication*[100]
+    {static} # registryCount : int
+    + Publication(title : string, isbn : string)
+    + Publication(other : Publication)
+    + operator=(other : Publication) : Publication&
+    + ~Publication()
+    {abstract} + getTitle() : string
+    {abstract} + getISBN() : string
+    {abstract} + printInfo() : void
+    + isDigital() : bool
+    {static} + getTotalCount() : int
+    {static} + getDigitalCount() : int
+    {static} + findByISBN(isbn : string) : Publication*
+}
+
+class PrintedPublication {
+    # pages : int
+    # publisher : string
+}
+
+class DigitalPublication {
+    # fileSize : double
+    # format : string
+    + isDigital() : bool
+}
+
+class Book {
+    # author : string
+}
+
+class Magazine {
+    # issueNumber : int
+}
+
+class EBook
+
+class HybridBook
+
+class "Дружественная функция" as FriendFunction <<function>> {
+    + printPublication(publication : Publication) : void
+}
+
+Publication <|-- PrintedPublication : virtual
+Publication <|-- DigitalPublication : virtual
+PrintedPublication <|-- Book
+PrintedPublication <|-- Magazine
+DigitalPublication <|-- EBook
+Book <|-- HybridBook
+DigitalPublication <|-- HybridBook
+
+Publication ..> FriendFunction : friend
+Publication ..> Publication : registry[100]
+
+note right of HybridBook
+  Множественное наследование:
+  Book + DigitalPublication.
+  Publication — виртуальная базовая часть,
+  чтобы в HybridBook был один экземпляр.
+end note
+
+note bottom of Publication
+  Абстрактный базовый класс.
+  Реестр содержит указатели на созданные объекты.
+  Максимальная вместимость реестра — 100 объектов.
+end note
+
+@enduml

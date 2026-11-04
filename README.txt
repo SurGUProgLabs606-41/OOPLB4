@@ -130,3 +130,10 @@ g++ -std=c++17 -Iinclude src/main.cpp \
 file lib/windows/lab4.dll
 file lib/windows/lab4.lib
 file lib/linux/liblab4.so
+
+
+Запуск UML-диаграмм
+option + D
+
+doxygen Doxyfile // Собрать документ
+open docs/html/index.html // Запуск
