@@ -15,7 +15,6 @@
  * и оператор присваивания.
  */
 
-
 #ifndef EBOOK_H
 #define EBOOK_H
 

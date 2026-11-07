@@ -39,6 +39,7 @@ using namespace std;
  * экземпляров базового класса.
  * В дальнейшем класс HybridBook наследуется одновременно от Book и DigitalPublication. Оба пути наследования ведут к Publication.
  * Виртуальное наследование позволяет избежать появления двух отдельных экземпляров Publication внутри одного объекта HybridBook.
+ * От PrintedPublication для Book и Magazine наследуются title и isbn. Виртуальные методы getTitle(), getISBN(), printInfo() реализуются в этих классах.
  */
 class PrintedPublication : virtual public Publication
 {
